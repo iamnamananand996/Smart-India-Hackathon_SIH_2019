@@ -1,0 +1,49 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/weather-icons.min.css') }}">
+
+
+<div class="container">
+
+    <br><br><br><br><br><br><br><br>
+
+
+
+
+<div class="col-md-5"> <!-- start map -->
+
+    {% if errors == True %}
+      <h3>{{results.errors}}</h3>
+    {% endif %}
+
+    {% if results.invalidZip == False %}
+      <h2><img src="{{ url_for('static', filename='imgs/city.png') }}" height=45px> Location</h2>
+        <font size=4px>
+          <!-- start loc -->
+        <p>Your location is: <span id="zip"></span> {{results.zipcode}}</p>
+
+          <!-- start weather -->
+
+        {% if results.weather %}
+          <p>Current Weather Conditions:<br>
+
+           <h2 style="display: inline;"><i class="wi {{ results.weather['icon'] }}"></i></h2>  {{ results.weather['temp'] }} &deg;F: {{ results.weather['description'].capitalize() }}<br /><br>
+          <small>High {{ results.weather['min'] }}/Low {{ results.weather['max'] }}<br>
+            Wind speeds are at {{results.weather['wind']['speed']}} m/s and {{results.weather['wind']['deg']}} degrees.<br>
+            Humidity is at {{results.weather['humidity']}}% and a current atmospheric pressure of {{results.weather['pressure']['press']}}.
+          </small>
+          <br><br>
+        {% endif %}
+
+      </font>
+    {% endif %}
+          <!-- start map -->
+    {% if results.mapImageUrl %}
+        <div id="map"><img src={{results.mapImageUrl}} width=450px></div>
+    {% endif %}
+</div>
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block content%}
+    <div class="container">
+        <br><br><br><br><br><br>
+        <div class="jumbotron" style="text-align:center">
+            <h1>Fertilizer Shop</h1>
+            <div class="col-sm-12">
+                <form action="{{url_for('shop')}}" method="POST" form-inline>
+                        <input type="text" class="form-control" name="city" placeholder="Enter City Name"><br>
+                        <input type="submit" class="btn" value="Submit">
+                </form>
+            </div>
+            
+            
+            
+                
+            </p>
+        </div>
+        {% if data == True %}
+        <div style="width: 100%">
+            <iframe width="100%" height="600" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=fertilizer+and+seed+shop+{{city}}&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                <a href="https://www.maps.ie/map-my-route/">Plot a route map</a>
+            </iframe>
+        </div><br />
+        {% endif %}
+    </div>
+    <br><br><br><br><br><br><br><br><br>
+
+{% endblock %}

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- bootstrap css cdn -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/css/style_profile1.css">
+    <link href="/static/css/style1.css" rel="stylesheet">
+    <!-- bootstrap js cdn -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+        <nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
+                <div class="container">
+                  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+                    aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </button>
+                  <a class="navbar-brand text-brand" href="{{url_for('main')}}">National<span class="color-b">&nbsp; Kisan &nbsp;</span>Portal</a>
+                  <button type="button" class="btn btn-link nav-search navbar-toggle-box-collapse d-md-none" data-toggle="collapse"
+                    data-target="#navbarTogglerDemo01" aria-expanded="false">
+                    <span class="fa fa-search" aria-hidden="true"></span>
+                  </button>
+                  <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link " href="{{url_for('upload')}}">Pest </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="{{url_for('fertilizer_info')}}">Fertilizer</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="{{url_for('weather')}}">Weather</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="{{url_for('crop')}}">Crop</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="{{url_for('market')}}">Market</a>
+                      </li>
+                      <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                          aria-haspopup="true" aria-expanded="false">
+                          Pages
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="property-single.html">Property Single</a>
+                          <a class="dropdown-item" href="blog-single.html">Blog Single</a>
+                          <a class="dropdown-item" href="agents-grid.html">Agents Grid</a>
+                          <a class="dropdown-item" href="agent-single.html">Agent Single</a>
+                        </div> -->
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="{{url_for('shop')}}">Shops</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <button type="button" class="btn btn-b-n navbar-toggle-box-collapse d-none d-md-block" data-toggle="collapse"
+                    data-target="#navbarTogglerDemo01" aria-expanded="false">
+                    <span class="fa fa-search" aria-hidden="true"></span>
+                  </button>
+                </div>
+              </nav>
+    <div class="container">
+        <br><br><br><br><br><br>
+        <div class="container emp-profile">
+            <div class="col-md-12">
+                {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                {% for category,message in messages %}
+                    <div class="alert alert-{{ category }} ">
+                        {{ message }}
+                    </div>
+                {% endfor %}
+                {% endif %}
+                {% endwith %}
+                {% block content %}{% endblock %}
+            </div>
+                <!-- <form method="post"> -->
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="profile-img">
+                        <img src="/static/images/farmer.jpg" alt=""/>
+                        <div class="file btn btn-lg btn-primary">
+                            Change Photo
+                            <input type="file" name="file"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="profile-head">
+                        <h2>{{data.first_name}}&nbsp;{{data.middle_name}}&nbsp;{{data.last_name}}</h2>
+                        <br><br><br><br>
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Frequently Grown Crop</a>
+                            </li>
+                        </ul>
+                        </div>
+                    </div>
+                    {% if user_id %}
+                    <div class="col-md-2">
+                            <a href="{{ url_for('issue_update', user_id=user_id) }}"><input type="submit" class="btn btn-primary" value="Issue Update"></a>
+                    </div>
+                    <div class="col-md-2">
+                        <a href="{{ url_for('add_data', id=user_id) }}"><input type="submit" class="btn btn-primary" value="Edit Profile"></a>
+                    </div>
+                    {% endif %}
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="profile-work">
+                                <h4>Usefull Links</h4>
+                                <a href="{{url_for('upload')}}">Pest Prediction</a><br/>
+                                <a href="{{url_for('weather')}}">Weather Condition</a><br/>
+                                <a href="{{url_for('crop')}}">Crop Guidelines</a><br/>
+                                <a href="{{url_for('market')}}">Market Stats</a><br/>
+                                <a href="{{url_for('shop')}}">Fertilizer Shops</a><br/>
+                                <a href="#">Fertilizer Recomendation</a><br/>
+                                <a href="{{url_for('fertilizer_info')}}"> Fertilizer FAQ</a><br/>
+                                <a href="{{url_for('issue',user_id=user_id)}}">Submit Issue</a>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="tab-content profile-tab" id="myTabContent">
+                                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>Kisan ID Number</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>{{data.kisan_id}}</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>Adhar Card Number</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>{{data.adhar_id}}</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>State</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>{{data.state}}</p>
+                                        </div>
+                                        </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>City</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>{{data.city}}</p>
+                                        </div>
+                                        </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>Locality</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>{{data.locality}}</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Full Address</label>
+                                            </div>
+                                        <div class="col-md-6">
+                                            <p>{{data.fullAddress}}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <label>Crop One</label>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <p>{{data.crop_1}}</p>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <a href="{{url_for('static', filename='guideline/'+data.crop_1+'.html')}}"> <input type="submit" class="btn btn-success" value="Guideline" style="margin-bottom:4px"></a>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <label>Crop Two</label>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <p>{{data.crop_2}}</p>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <a href="{{url_for('static', filename='guideline/'+data.crop_2+'.html')}}"><input type="submit" class="btn btn-success" value="Guideline" style="margin-bottom:4px"></a>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <label>Crop Three</label>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <p>{{data.crop_3}}</p>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <a href="{{url_for('static', filename='guideline/'+data.crop_3+'.html')}}"><input type="submit" class="btn btn-success" value="Guideline" style="margin-bottom:4px"></a>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <label>Crop Four</label>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <p>{{data.crop_4}}</p>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <a href="{{url_for('static', filename='guideline/'+data.crop_4+'.html')}}"><input type="submit" class="btn btn-success" value="Guideline" style="margin-bottom:4px"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!-- </form>            -->
+            </div>
+
+    </div>
+    <footer >
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="copyright-footer">
+                    <p class="copyright color-text-a">
+                      &copy; Copyright
+                      <span class="color-a">National Kisan Portal</span> All Rights Reserved.
+                    </p>
+                  </div>
+                  <div class="credits">
+                    Designed by <a href="#">Team : CaffeineOverFlow</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "farmardatabase",
+  "private_key_id": "2fb5e79d5cca1097b45bdbca8f61805f270d0ada",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDUpf9hwfgnseqj\nT19i8ZSorv4uisNLNWhjuUUdUlDv5a9WZGl6c+nm6GdW/0JGExOopIxlH4AyljWT\nbVgPae81IZt9srfnMD9yzCSWnpo8qya3AP1UrBXu52cCv/jvFyEsFyV7Z960TH03\nBo6RWuzCDMdVtYqkBYFX3giDx2kVUDMSOHP323/Asd1kdpGGcyg91oxlsVBUjC/w\nOoieUlWiaQomdfaWXvKX/bNh+Ln8eWNmBcSYYHNoRhF8y29mjFiKws1BilSIIuZu\nHD132tlXDtEvpu9wtw4CjRsqlsalzchoWE+FRkNLxTInlSOwPVMK6KimYcmY+os7\nk0tVXQJhAgMBAAECggEAHQQLjVzIzi3OPPtzIg6hwMSkBVjE3inK9TSOFDqrtZhL\nLQglhmJzq6DRnQLWmbY3q/7L825xcTWi2NuGNRA45jCQRX4R7vdb6P+nDHBWzmly\nLm1xo9CZa5Bis3LbdlBbI+eCo0ygjEyVl2ELKhVUkgPpXS4Y3Vms9P7kfYrDsXcQ\n3EOva8r7kFv9UxssWQsm1PO+CogRi/q9bkFy+bxntHIOi89NoJU88ToVDh6v9CyL\nVohCfuYs7clo4fAUHYTvJhLnVY1keniQ07z9z38vE7CSm0YsaCOMXtsnX/aPQZnB\nqwCadCf8vdV8MXw6k+4aqnyare7DFJ+P8uB8nYuomwKBgQDqfEbm2EWUvS+Oi9+R\nbOdfQKIOIKsjqh6SnYP6WpvU15drAHFeBSaUCjzGOiKows01Uw+lDUPBVh3smGkV\ngtl8xucr9Gr819wUrhAPHtQH6YYgZuQos5GHpa9NhotgD1rzfd8hXGqlWoTNnbTh\nuSKhP3Ku4ST4pasFLRAo1/mgnwKBgQDoKMzufE/091rtAmZvd9+GDi3PF1FDAgxb\nELOvtdMs0XeabcbVk0yuAonEiryZ5WwgPq/XoIGRpstqUVrzDqcPJqKUE6HajE4c\nW9Brif5tm6JNtZnkLFJ4MekPwJZ+pPZWiHllciVDg4Q1yn16K6UBN/5hVCzxJSk7\nhvMGYHd8/wKBgQCHacOsVmNAdUy8fkxa+FBZssKjc/xBOWI0e2CXOLJbZTGdaoEN\nsd3Iimz0cOhJG05UqCYVxCZHxYq8cnvlH06n/1nLCXirkaEYFDlT8hKyiwqZNbI3\nSxQVCPrGw5dDnzp/+UXdRziTS0X8VEH8ROUZx8Fb+stWCJ5N++skGy2eswKBgQCD\nMYNVheR9T0cPxppyhXBIRjz22XtvfXnUAGU6d2rF2f1XxI9nZB0h/Ic0DR61bSOk\nOSiPlsGBuJsdEqptzirz8eZP/aQqZ71AY1YtX0brU9btSSGVAsL772CAKVoiaUBX\n+Dl57X5HX8vXxf0QjBdrz+Otxq66+0AIxqMRSHRdqwKBgCfhPllp1BxW6CNTQS74\niH26ZssYR58ut16LMHHbbihlTpuTzW/stQ3GJk1KONlOL5g1rVsGmsrrfSlt4tSo\nioy2Ljg3QYkolaplZL61upye5UT/mP0flp6pTkMJj6/Cde63R4xipXf58alWjCpl\n5R0Kh7NALfw6A4x0rxkI9FXd\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-m7zjf@farmardatabase.iam.gserviceaccount.com",
+  "client_id": "100909578025584441052",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-m7zjf%40farmardatabase.iam.gserviceaccount.com"
+}

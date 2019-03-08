@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+
+{% block content%}
+
+<br><br><br><br><br><br><br><br>
+
+    <div class="container" style="hight:100px">
+        <!-- <div class="jumbotron"> -->
+            <div class="col-sm-5">
+                <h3>Pest Prediction</h3>
+                <form id="upload-form" action="{{url_for('upload')}}" method="POST" enctype="multipart/form-data">    
+                    <input id="file-picker" type="file" name="file" accept="image/*" class="form-control" style="padding-bottom:36px">
+                    <div id="msg"></div>
+                    <br>
+                    <input type="submit" value="Upload" id="upload-button" class="btn btn-success">
+                </form>
+            </div>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <!-- </div> -->
+    </div>
+    
+    <script>
+    var alert = '{{display}}'
+    console.log(alert)
+    if(alert == '1'){
+        // swal("Registration Failed", "Please Check Your Kisan ID Number", "warning")
+        window.alert('file Not Found')
+	}
+    
+    </script>
+
+
+{% endblock %}
+
+
+

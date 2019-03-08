@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block content%}
+<br><br><br><br><br><br><br><br>
+
+<div class="container">
+    <div class="col-md-5">
+        <h3>Weather Prediction</h3>
+        <form action="{{url_for('weather')}}" method="POST"> 
+            <input type="text" name="city" class="form-control" placeholder="Enter Your City Name" >
+            <br>
+            <input type="submit" name="daily" value="Daily Weather Forcast" class="btn btn-success " style="color:#fff">
+            <input type="submit" name="15days" value="15 Days Weather Forcast" class="btn btn-success" style="color:#fff">
+        </form>
+    </div> 
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>   
+</div>
+
+<script>
+var alert = '{{error}}'
+if(alert == '1'){
+    window.alert('City Name Not Found')
+}
+</script>
+
+{% endblock %}

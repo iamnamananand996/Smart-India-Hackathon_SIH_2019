@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+{% block content%}
+
+<div class="container">
+    
+    <br><br><br><br><br><br><br><br>
+    <div class="row">
+
+   
+    <div class="col-sm-4">
+        <img src="{{ url_for('static', filename='images/'+image_name) }}" width="200" height="200">
+        <br><br>
+        <h4>Result : </h4><br>
+        <h4>{{result}}</h4>
+        <!-- <a href="{{url_for('static', filename='guideline_pest/test2.html')}}"><input type="submit" value="Guideline" class="btn"></a> -->
+    </div>
+    <div class="col-sm-8" >
+        {% if data %}
+            <h3 >Guidelines for {{result}} </h3>
+            <br>
+            {% for k in data.keys() %}
+            <!-- <p>{{ k }}</p> -->
+            <li style="font-size:20px">{{data[k]}}</li>
+            {% endfor %}
+        {% endif %}
+        <br><br><br><br><br><br><br><br><br><br><br>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+</div>
+</div>
+
+<script>
+var alert = '{{error}}'
+if (alert == '1'){
+    window.alert('No Data Found')
+}
+
+</script>
+
+
+
+{% endblock%}

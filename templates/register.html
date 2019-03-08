@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Form-v10 by Colorlib</title>
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Font-->
+	<link rel="stylesheet" type="text/css" href="/static/css/montserrat-font.css">
+	<link rel="stylesheet" type="text/css" href="/static/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+	<!-- Main Style Css -->
+	<link rel="stylesheet" href="/static/css/style_main1.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+</head>
+<body class="form-v10">
+	<div class="page-content">
+		<div class="form-v10-content">
+			
+			<form class="form-detail" action="{{url_for('register')}}" method="POST" id="myform">
+				<div class="form-left">
+					<h2>General Infomation</h2>
+					<div class="form-group">
+						<div class="form-row form-row-1">
+							<input type="text" name="first_name" id="first_name" class="input-text" placeholder="First Name" required>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="form-row form-row-2">
+							<input type="text" name="middle_name" id="last_name" class="input-text" placeholder="Middle Name" required>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="form-row form-row-2">
+							<input type="text" name="last_name" id="last_name" class="input-text" placeholder="Last Name" required>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="form-row form-row-3">
+							<input type="text" name="code" class="code" id="code" placeholder="Code +" required>
+						</div>
+						<div class="form-row form-row-4">
+							<input type="text" name="phone" class="phone" id="phone" placeholder="Phone Number" required>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="form-row form-row-2">
+							<input type="text" name="kisan_id" class="company" id="company" placeholder="Kisan ID Number" required>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="form-row form-row-2">
+							<input type="text" name="adhar_id" class="company" id="company" placeholder="Adhar Number" required>
+						</div>
+					</div>	
+				</div>
+				<div class="form-right">
+					<h2>Contact Details</h2>
+					<div class="form-row">
+						<input type="text" name="state" class="street" id="street" placeholder="State" required>
+					</div>
+					<div class="form-row">
+						<input type="text" name="city" class="additional" id="additional" placeholder="City Name" required>
+					</div>
+					<div class="form-row">
+						<input type="text" name="fullAddress" class="additional" id="additional" placeholder="Full Address" required>
+					</div>
+					<div class="form-row">
+						<input type="text" name="locality" class="additional" id="additional" placeholder="Locality" required>
+					</div>
+					<div class="form-row">
+						<input type="text" name="zipcode" class="additional" id="additional" placeholder="Zipcode" required>
+					</div>
+					<div class="form-row">
+						<input type="password" name="password" class="additional" id="additional" placeholder="Password" required>
+					</div>
+					<div class="form-row">
+						<input type="password" name="conform_password" class="additional" id="additional" placeholder="Conform Password" required>
+					</div>
+					<div class="form-checkbox">
+						<label class="container"><p>I do accept the <a href="#" class="text">Terms and Conditions</a> of your site.</p>
+						  	<input type="checkbox" name="checkbox">
+						  	<span class="checkmark"></span>
+						</label>
+					</div>
+					<div class="form-row-last">
+						<input type="submit" name="register" class="register" id="button" value="Register">
+					</div>
+					<div class="form-row">
+						<p style="font-size:13px; color:#ffffff">Already have Account</p>
+						<strong><a href="{{url_for('login')}}" style="font-size:15px;color: #000">login</a></strong>
+					</div>
+					
+				</div>
+			</form>
+		</div>
+	</div>
+
+<script>
+	
+	alert = '{{alert}}'
+	first_name = '{{first_name}}'
+	if(alert == '1'){
+		swal(first_name+" Registred Successfully ","Please Login for further use", "success")
+	}
+	if(alert == '2'){
+		swal("Registration Failed", "Please Check Your Kisan ID Number", "warning")
+	}
+	
+	
+
+	
+</script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>

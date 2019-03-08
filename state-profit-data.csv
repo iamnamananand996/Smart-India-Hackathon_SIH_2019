@@ -1,0 +1,596 @@
+state,crop,profit
+Andhra Pradesh,Rice,63851.83909564643
+Andhra Pradesh,Jowar,10974.069178111
+Andhra Pradesh,Bajra,7414.478167142301
+Andhra Pradesh,Maize,31369.836277210437
+Andhra Pradesh,Ragi,5636.3760976878
+Andhra Pradesh,Wheat,1.0
+Andhra Pradesh,Barley,-1
+Andhra Pradesh,Gram,5058.972381754003
+Andhra Pradesh,Tur,1.0
+Andhra Pradesh,Groundnut,10177.468974925003
+Andhra Pradesh,Mustard,1.0
+Andhra Pradesh,Soyabean,7632.152855004762
+Andhra Pradesh,Sunflower,9739.718467635998
+Andhra Pradesh,Cotton,1.0
+Andhra Pradesh,Jute,-1
+Andhra Pradesh,Mesta,1609.9308729210024
+Andhra Pradesh,Sugarcane,893130.4966730588
+Arunachal Pradesh ,Rice,999.5865639660005
+Arunachal Pradesh ,Jowar,-1
+Arunachal Pradesh ,Bajra,-1
+Arunachal Pradesh ,Maize,4482.932344170502
+Arunachal Pradesh ,Ragi,-1
+Arunachal Pradesh ,Wheat,2388.5555511497478
+Arunachal Pradesh ,Barley,-1
+Arunachal Pradesh ,Gram,-1
+Arunachal Pradesh ,Tur,3390.0
+Arunachal Pradesh ,Groundnut,-1
+Arunachal Pradesh ,Mustard,7963.315162592498
+Arunachal Pradesh ,Soyabean,3841.3619765416115
+Arunachal Pradesh ,Sunflower,-1
+Arunachal Pradesh ,Cotton,-1
+Arunachal Pradesh ,Jute,-1
+Arunachal Pradesh ,Mesta,-1
+Arunachal Pradesh ,Sugarcane,204345.6734693876
+Assam,Rice,25101.500000000007
+Assam,Jowar,-1
+Assam,Bajra,-1
+Assam,Maize,1.0
+Assam,Ragi,-1
+Assam,Wheat,1.0
+Assam,Barley,-1
+Assam,Gram,1.0
+Assam,Tur,1.0
+Assam,Groundnut,-1
+Assam,Mustard,4885.0
+Assam,Soyabean,-1
+Assam,Sunflower,-1
+Assam,Cotton,1.0
+Assam,Jute,34954.0
+Assam,Mesta,1.0
+Assam,Sugarcane,430802.0
+Bihar,Rice,3193.0197755100016
+Bihar,Jowar,8725.2510760408
+Bihar,Bajra,7863.8214883442
+Bihar,Maize,18223.121581651998
+Bihar,Ragi,333.1931378870995
+Bihar,Wheat,5272.15376641605
+Bihar,Barley,1.0
+Bihar,Gram,1231.946383248407
+Bihar,Tur,7053.887398410003
+Bihar,Groundnut,1.0
+Bihar,Mustard,5664.649190696498
+Bihar,Soyabean,-1
+Bihar,Sunflower,1.0
+Bihar,Cotton,-1
+Bihar,Jute,1.0
+Bihar,Mesta,1.0
+Bihar,Sugarcane,493081.236862286
+Chattisgarh,Rice,730.0
+Chattisgarh,Jowar,7174.0
+Chattisgarh,Bajra,-1
+Chattisgarh,Maize,2804.0
+Chattisgarh,Ragi,1.0
+Chattisgarh,Wheat,1.0
+Chattisgarh,Barley,1.0
+Chattisgarh,Gram,1.0
+Chattisgarh,Tur,1.0
+Chattisgarh,Groundnut,27478.1
+Chattisgarh,Mustard,1.0
+Chattisgarh,Soyabean,1.0
+Chattisgarh,Sunflower,1.0
+Chattisgarh,Cotton,1.0
+Chattisgarh,Jute,-1
+Chattisgarh,Mesta,1.0
+Chattisgarh,Sugarcane,6062.0
+Goa,Rice,30230.0
+Goa,Jowar,-1
+Goa,Bajra,-1
+Goa,Maize,-1
+Goa,Ragi,3000.0
+Goa,Wheat,-1
+Goa,Barley,-1
+Goa,Gram,-1
+Goa,Tur,-1
+Goa,Groundnut,16019.25
+Goa,Mustard,-1
+Goa,Soyabean,-1
+Goa,Sunflower,-1
+Goa,Cotton,-1
+Goa,Jute,-1
+Goa,Mesta,-1
+Goa,Sugarcane,601406.0
+Gujarat,Rice,9390.0
+Gujarat,Jowar,8218.0
+Gujarat,Bajra,11584.0
+Gujarat,Maize,1402.125
+Gujarat,Ragi,1284.0
+Gujarat,Wheat,23280.67708333333
+Gujarat,Barley,-1
+Gujarat,Gram,1.0
+Gujarat,Tur,1.0
+Gujarat,Groundnut,17013.440000000002
+Gujarat,Mustard,31845.489999999998
+Gujarat,Soyabean,3202.845714285715
+Gujarat,Sunflower,-1
+Gujarat,Cotton,1.0
+Gujarat,Jute,-1
+Gujarat,Mesta,-1
+Gujarat,Sugarcane,864062.0
+Haryana,Rice,35070.0
+Haryana,Jowar,1.0
+Haryana,Bajra,14321.0
+Haryana,Maize,17420.0
+Haryana,Ragi,-1
+Haryana,Wheat,31028.75
+Haryana,Barley,16170.500000000004
+Haryana,Gram,1.0
+Haryana,Tur,3150.0
+Haryana,Groundnut,1.0
+Haryana,Mustard,15124.0
+Haryana,Soyabean,-1
+Haryana,Sunflower,2970.0
+Haryana,Cotton,1.0
+Haryana,Jute,-1
+Haryana,Mesta,-1
+Haryana,Sugarcane,695306.0
+Himachal Pradesh,Rice,6130.0
+Himachal Pradesh,Jowar,-1
+Himachal Pradesh,Bajra,-1
+Himachal Pradesh,Maize,17765.0
+Himachal Pradesh,Ragi,4352.0
+Himachal Pradesh,Wheat,440.5
+Himachal Pradesh,Barley,432.10000000000036
+Himachal Pradesh,Gram,518.010000000002
+Himachal Pradesh,Tur,-1
+Himachal Pradesh,Groundnut,-1
+Himachal Pradesh,Mustard,1.0
+Himachal Pradesh,Soyabean,5491.079999999998
+Himachal Pradesh,Sunflower,-1
+Himachal Pradesh,Cotton,-1
+Himachal Pradesh,Jute,-1
+Himachal Pradesh,Mesta,-1
+Himachal Pradesh,Sugarcane,191618.0
+Jammu & Kashmir,Rice,16390.0
+Jammu & Kashmir,Jowar,2602.0
+Jammu & Kashmir,Bajra,1707.0
+Jammu & Kashmir,Maize,7025.0
+Jammu & Kashmir,Ragi,-1
+Jammu & Kashmir,Wheat,1187.75
+Jammu & Kashmir,Barley,1.0
+Jammu & Kashmir,Gram,-1
+Jammu & Kashmir,Tur,-1
+Jammu & Kashmir,Groundnut,-1
+Jammu & Kashmir,Mustard,1075.0
+Jammu & Kashmir,Soyabean,-1
+Jammu & Kashmir,Sunflower,-1
+Jammu & Kashmir,Cotton,-1
+Jammu & Kashmir,Jute,-1
+Jammu & Kashmir,Mesta,-1
+Jammu & Kashmir,Sugarcane,-1
+Jharkhand,Rice,16960.0625
+Jharkhand,Jowar,9784.0
+Jharkhand,Bajra,13301.0
+Jharkhand,Maize,5616.075000000001
+Jharkhand,Ragi,1.0
+Jharkhand,Wheat,16430.6
+Jharkhand,Barley,1.0
+Jharkhand,Gram,232.86000000000058
+Jharkhand,Tur,590.0
+Jharkhand,Groundnut,1.0
+Jharkhand,Mustard,23173.0
+Jharkhand,Soyabean,-1
+Jharkhand,Sunflower,-1
+Jharkhand,Cotton,-1
+Jharkhand,Jute,-1
+Jharkhand,Mesta,1.0
+Jharkhand,Sugarcane,390758.0
+Karnataka,Rice,54404.46879610981
+Karnataka,Jowar,7214.760248881599
+Karnataka,Bajra,2645.0506067027
+Karnataka,Maize,16669.489579305755
+Karnataka,Ragi,9401.7614767808
+Karnataka,Wheat,1.0
+Karnataka,Barley,-1
+Karnataka,Gram,1.0
+Karnataka,Tur,1.0
+Karnataka,Groundnut,3935.2120224045175
+Karnataka,Mustard,2501.9894214548003
+Karnataka,Soyabean,2200.1586619179798
+Karnataka,Sunflower,1.0
+Karnataka,Cotton,1.0
+Karnataka,Jute,-1
+Karnataka,Mesta,1.0
+Karnataka,Sugarcane,974293.6139776028
+Kerala,Rice,50972.58333333334
+Kerala,Jowar,820.0
+Kerala,Bajra,-1
+Kerala,Maize,-1
+Kerala,Ragi,3910.0
+Kerala,Wheat,-1
+Kerala,Barley,-1
+Kerala,Gram,-1
+Kerala,Tur,-1
+Kerala,Groundnut,1.0
+Kerala,Mustard,-1
+Kerala,Soyabean,-1
+Kerala,Sunflower,-1
+Kerala,Cotton,1.0
+Kerala,Jute,-1
+Kerala,Mesta,-1
+Kerala,Sugarcane,1071818.0
+Madhya Pradesh,Rice,1.0
+Madhya Pradesh,Jowar,9730.0
+Madhya Pradesh,Bajra,13148.0
+Madhya Pradesh,Maize,121.79166666666788
+Madhya Pradesh,Ragi,1.0
+Madhya Pradesh,Wheat,8658.773076923077
+Madhya Pradesh,Barley,648.4000000000015
+Madhya Pradesh,Gram,1.0
+Madhya Pradesh,Tur,1.0
+Madhya Pradesh,Groundnut,1.0
+Madhya Pradesh,Mustard,18666.604166666664
+Madhya Pradesh,Soyabean,10137.493333333336
+Madhya Pradesh,Sunflower,1.0
+Madhya Pradesh,Cotton,1.0
+Madhya Pradesh,Jute,-1
+Madhya Pradesh,Mesta,1.0
+Madhya Pradesh,Sugarcane,442646.0
+Maharashtra,Rice,42167.236363636366
+Maharashtra,Jowar,6616.0
+Maharashtra,Bajra,3815.0
+Maharashtra,Maize,4620.995999999999
+Maharashtra,Ragi,2896.0
+Maharashtra,Wheat,6362.199999999997
+Maharashtra,Barley,1.0
+Maharashtra,Gram,1.0
+Maharashtra,Tur,1.0
+Maharashtra,Groundnut,17372.059999999998
+Maharashtra,Mustard,1.0
+Maharashtra,Soyabean,20112.94871794872
+Maharashtra,Sunflower,1.0
+Maharashtra,Cotton,1.0
+Maharashtra,Jute,-1
+Maharashtra,Mesta,1.0
+Maharashtra,Sugarcane,877910.0
+Manipur,Rice,23494.929951906
+Manipur,Jowar,-1
+Manipur,Bajra,-1
+Manipur,Maize,21427.671978309503
+Manipur,Ragi,-1
+Manipur,Wheat,-1
+Manipur,Barley,-1
+Manipur,Gram,-1
+Manipur,Tur,-1
+Manipur,Groundnut,-1
+Manipur,Mustard,1.0
+Manipur,Soyabean,-1
+Manipur,Sunflower,-1
+Manipur,Cotton,-1
+Manipur,Jute,-1
+Manipur,Mesta,-1
+Manipur,Sugarcane,361944.53968253965
+Meghalaya,Rice,11030.0
+Meghalaya,Jowar,-1
+Meghalaya,Bajra,-1
+Meghalaya,Maize,5780.0
+Meghalaya,Ragi,-1
+Meghalaya,Wheat,3098.75
+Meghalaya,Barley,-1
+Meghalaya,Gram,-1
+Meghalaya,Tur,1.0
+Meghalaya,Groundnut,-1
+Meghalaya,Mustard,1348.0
+Meghalaya,Soyabean,1.0
+Meghalaya,Sunflower,-1
+Meghalaya,Cotton,1.0
+Meghalaya,Jute,1.0
+Meghalaya,Mesta,1.0
+Meghalaya,Sugarcane,-1
+Mizoram,Rice,7210.0
+Mizoram,Jowar,-1
+Mizoram,Bajra,-1
+Mizoram,Maize,11210.0
+Mizoram,Ragi,-1
+Mizoram,Wheat,-1
+Mizoram,Barley,-1
+Mizoram,Gram,-1
+Mizoram,Tur,-1
+Mizoram,Groundnut,-1
+Mizoram,Mustard,3322.0
+Mizoram,Soyabean,970.619999999999
+Mizoram,Sunflower,-1
+Mizoram,Cotton,1.0
+Mizoram,Jute,-1
+Mizoram,Mesta,-1
+Mizoram,Sugarcane,24374.0
+Nagaland,Rice,8310.0
+Nagaland,Jowar,14428.0
+Nagaland,Bajra,13573.0
+Nagaland,Maize,8135.0
+Nagaland,Ragi,-1
+Nagaland,Wheat,3307.0
+Nagaland,Barley,6086.800000000003
+Nagaland,Gram,2913.2700000000004
+Nagaland,Tur,3230.0
+Nagaland,Groundnut,5288.0
+Nagaland,Mustard,5422.0
+Nagaland,Soyabean,4306.679999999997
+Nagaland,Sunflower,1.0
+Nagaland,Cotton,1.0
+Nagaland,Jute,1.0
+Nagaland,Mesta,-1
+Nagaland,Sugarcane,512558.0
+Orissa,Rice,12210.062002626633
+Orissa,Jowar,2961.860565057401
+Orissa,Bajra,1509.8080399307
+Orissa,Maize,677.4186386720794
+Orissa,Ragi,1.0
+Orissa,Wheat,1.0
+Orissa,Barley,-1
+Orissa,Gram,1.0
+Orissa,Tur,1.0
+Orissa,Groundnut,1106.1738696462526
+Orissa,Mustard,1.0
+Orissa,Soyabean,1.0
+Orissa,Sunflower,1.0
+Orissa,Cotton,1.0
+Orissa,Jute,1.0
+Orissa,Mesta,1.0
+Orissa,Sugarcane,696259.0089769519
+Punjab,Rice,50910.0
+Punjab,Jowar,-1
+Punjab,Bajra,8728.0
+Punjab,Maize,24530.0
+Punjab,Ragi,-1
+Punjab,Wheat,34458.75
+Punjab,Barley,22082.700000000004
+Punjab,Gram,346.9200000000019
+Punjab,Tur,910.0
+Punjab,Groundnut,1.0
+Punjab,Mustard,10945.0
+Punjab,Soyabean,-1
+Punjab,Sunflower,3030.0
+Punjab,Cotton,624.0499999999993
+Punjab,Jute,-1
+Punjab,Mesta,-1
+Punjab,Sugarcane,698810.0
+Rajasthan,Rice,4630.0
+Rajasthan,Jowar,1.0
+Rajasthan,Bajra,2965.0
+Rajasthan,Maize,3710.0
+Rajasthan,Ragi,-1
+Rajasthan,Wheat,25231.7825
+Rajasthan,Barley,11308.900000000001
+Rajasthan,Gram,1.0
+Rajasthan,Tur,1.0
+Rajasthan,Groundnut,4608.0
+Rajasthan,Mustard,24263.252499999995
+Rajasthan,Soyabean,753.4799999999996
+Rajasthan,Sunflower,1.0
+Rajasthan,Cotton,1.0
+Rajasthan,Jute,-1
+Rajasthan,Mesta,-1
+Rajasthan,Sugarcane,590630.0
+Sikkim,Rice,6050.0
+Sikkim,Jowar,-1
+Sikkim,Bajra,-1
+Sikkim,Maize,6470.0
+Sikkim,Ragi,1635.0
+Sikkim,Wheat,1.0
+Sikkim,Barley,524.8000000000011
+Sikkim,Gram,-1
+Sikkim,Tur,-1
+Sikkim,Groundnut,-1
+Sikkim,Mustard,2356.0
+Sikkim,Soyabean,1.0
+Sikkim,Sunflower,-1
+Sikkim,Cotton,-1
+Sikkim,Jute,-1
+Sikkim,Mesta,-1
+Sikkim,Sugarcane,-1
+Tamil Nadu,Rice,34984.985145386
+Tamil Nadu,Jowar,6705.0845542486
+Tamil Nadu,Bajra,12691.050500876201
+Tamil Nadu,Maize,11398.497287443268
+Tamil Nadu,Ragi,11910.2206408813
+Tamil Nadu,Wheat,-1
+Tamil Nadu,Barley,-1
+Tamil Nadu,Gram,1.0
+Tamil Nadu,Tur,1.0
+Tamil Nadu,Groundnut,59556.383155603005
+Tamil Nadu,Mustard,-1
+Tamil Nadu,Soyabean,-1
+Tamil Nadu,Sunflower,1.0
+Tamil Nadu,Cotton,1.0
+Tamil Nadu,Jute,1.0
+Tamil Nadu,Mesta,-1
+Tamil Nadu,Sugarcane,1188968.69133884
+Tripura,Rice,41885.3
+Tripura,Jowar,-1
+Tripura,Bajra,-1
+Tripura,Maize,1.0
+Tripura,Ragi,-1
+Tripura,Wheat,10816.25
+Tripura,Barley,-1
+Tripura,Gram,-1
+Tripura,Tur,1.0
+Tripura,Groundnut,1.0
+Tripura,Mustard,4309.0
+Tripura,Soyabean,-1
+Tripura,Sunflower,-1
+Tripura,Cotton,1.0
+Tripura,Jute,1.0
+Tripura,Mesta,1.0
+Tripura,Sugarcane,550898.0
+Uttarakhand,Rice,16050.0
+Uttarakhand,Jowar,-1
+Uttarakhand,Bajra,-1
+Uttarakhand,Maize,4505.0
+Uttarakhand,Ragi,8174.0
+Uttarakhand,Wheat,5695.75
+Uttarakhand,Barley,1.0
+Uttarakhand,Gram,993.260000000002
+Uttarakhand,Tur,50.0
+Uttarakhand,Groundnut,740.5
+Uttarakhand,Mustard,1705.0
+Uttarakhand,Soyabean,181.0199999999968
+Uttarakhand,Sunflower,-1
+Uttarakhand,Cotton,-1
+Uttarakhand,Jute,-1
+Uttarakhand,Mesta,-1
+Uttarakhand,Sugarcane,676946.0
+Uttar Pradesh,Rice,21557.515384615384
+Uttar Pradesh,Jowar,9370.0
+Uttar Pradesh,Bajra,15069.0
+Uttar Pradesh,Maize,2885.6654761904756
+Uttar Pradesh,Ragi,7069.0
+Uttar Pradesh,Wheat,24372.08936170213
+Uttar Pradesh,Barley,9372.5
+Uttar Pradesh,Gram,99.79000000000087
+Uttar Pradesh,Tur,4070.0
+Uttar Pradesh,Groundnut,11954.131249999999
+Uttar Pradesh,Mustard,24433.808139534878
+Uttar Pradesh,Soyabean,1.0
+Uttar Pradesh,Sunflower,1950.0
+Uttar Pradesh,Cotton,1.0
+Uttar Pradesh,Jute,1.0
+Uttar Pradesh,Mesta,-1
+Uttar Pradesh,Sugarcane,663578.0
+West Bengal,Rice,47730.59534442442
+West Bengal,Jowar,918.5035552678
+West Bengal,Bajra,-1
+West Bengal,Maize,21120.6610653425
+West Bengal,Ragi,4781.111128760598
+West Bengal,Wheat,20420.312461174814
+West Bengal,Barley,1.0
+West Bengal,Gram,1.0
+West Bengal,Tur,1.0
+West Bengal,Groundnut,11400.907663095502
+West Bengal,Mustard,19550.667035399027
+West Bengal,Soyabean,1.0
+West Bengal,Sunflower,1.0
+West Bengal,Cotton,1.0
+West Bengal,Jute,63674.90908180954
+West Bengal,Mesta,3591.3462185715
+West Bengal,Sugarcane,862621.9393909845
+A & N Islands,Rice,33950.0
+A & N Islands,Jowar,-1
+A & N Islands,Bajra,-1
+A & N Islands,Maize,-1
+A & N Islands,Ragi,-1
+A & N Islands,Wheat,-1
+A & N Islands,Barley,-1
+A & N Islands,Gram,-1
+A & N Islands,Tur,-1
+A & N Islands,Groundnut,-1
+A & N Islands,Mustard,-1
+A & N Islands,Soyabean,-1
+A & N Islands,Sunflower,-1
+A & N Islands,Cotton,-1
+A & N Islands,Jute,-1
+A & N Islands,Mesta,-1
+A & N Islands,Sugarcane,-1
+Chandigarh,Rice,-1
+Chandigarh,Jowar,-1
+Chandigarh,Bajra,-1
+Chandigarh,Maize,-1
+Chandigarh,Ragi,-1
+Chandigarh,Wheat,-1
+Chandigarh,Barley,-1
+Chandigarh,Gram,-1
+Chandigarh,Tur,-1
+Chandigarh,Groundnut,-1
+Chandigarh,Mustard,-1
+Chandigarh,Soyabean,-1
+Chandigarh,Sunflower,-1
+Chandigarh,Cotton,-1
+Chandigarh,Jute,-1
+Chandigarh,Mesta,-1
+Chandigarh,Sugarcane,-1
+D & N Haveli,Rice,11530.0
+D & N Haveli,Jowar,13600.0
+D & N Haveli,Bajra,-1
+D & N Haveli,Maize,-1
+D & N Haveli,Ragi,9656.0
+D & N Haveli,Wheat,5156.75
+D & N Haveli,Barley,-1
+D & N Haveli,Gram,-1
+D & N Haveli,Tur,1.0
+D & N Haveli,Groundnut,-1
+D & N Haveli,Mustard,-1
+D & N Haveli,Soyabean,-1
+D & N Haveli,Sunflower,-1
+D & N Haveli,Cotton,-1
+D & N Haveli,Jute,-1
+D & N Haveli,Mesta,-1
+D & N Haveli,Sugarcane,-1
+Daman & Diu,Rice,16807.647058823997
+Daman & Diu,Jowar,-1
+Daman & Diu,Bajra,-1
+Daman & Diu,Maize,-1
+Daman & Diu,Ragi,-1
+Daman & Diu,Wheat,-1
+Daman & Diu,Barley,-1
+Daman & Diu,Gram,-1
+Daman & Diu,Tur,-1
+Daman & Diu,Groundnut,-1
+Daman & Diu,Mustard,-1
+Daman & Diu,Soyabean,-1
+Daman & Diu,Sunflower,-1
+Daman & Diu,Cotton,-1
+Daman & Diu,Jute,-1
+Daman & Diu,Mesta,-1
+Daman & Diu,Sugarcane,-1
+Delhi,Rice,33230.0
+Delhi,Jowar,8020.0
+Delhi,Bajra,21852.0
+Delhi,Maize,-1
+Delhi,Ragi,-1
+Delhi,Wheat,30073.25
+Delhi,Barley,1.0
+Delhi,Gram,-1
+Delhi,Tur,-1
+Delhi,Groundnut,-1
+Delhi,Mustard,2440.0
+Delhi,Soyabean,-1
+Delhi,Sunflower,-1
+Delhi,Cotton,-1
+Delhi,Jute,-1
+Delhi,Mesta,-1
+Delhi,Sugarcane,-1
+Lakshadweep,Rice,-1
+Lakshadweep,Jowar,-1
+Lakshadweep,Bajra,-1
+Lakshadweep,Maize,-1
+Lakshadweep,Ragi,-1
+Lakshadweep,Wheat,-1
+Lakshadweep,Barley,-1
+Lakshadweep,Gram,-1
+Lakshadweep,Tur,-1
+Lakshadweep,Groundnut,-1
+Lakshadweep,Mustard,-1
+Lakshadweep,Soyabean,-1
+Lakshadweep,Sunflower,-1
+Lakshadweep,Cotton,-1
+Lakshadweep,Jute,-1
+Lakshadweep,Mesta,-1
+Lakshadweep,Sugarcane,-1
+Puducherry,Rice,27390.0
+Puducherry,Jowar,-1
+Puducherry,Bajra,9000.0
+Puducherry,Maize,-1
+Puducherry,Ragi,-1
+Puducherry,Wheat,-1
+Puducherry,Barley,-1
+Puducherry,Gram,-1
+Puducherry,Tur,-1
+Puducherry,Groundnut,15870.5
+Puducherry,Mustard,-1
+Puducherry,Soyabean,-1
+Puducherry,Sunflower,-1
+Puducherry,Cotton,76930.75
+Puducherry,Jute,-1
+Puducherry,Mesta,-1
+Puducherry,Sugarcane,1004630.0

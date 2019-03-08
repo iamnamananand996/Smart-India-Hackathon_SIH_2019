@@ -1,0 +1,117 @@
+{% extends 'layout.html' %}
+{% block content %}
+<body>
+    <div class="container">
+        <br><br><br><br><br><br><br><br>
+        <form action="{{url_for('market')}}" method="POST">
+            <div class="row">
+
+           
+            <div class="col-sm-4">
+                <label for=""> State</label>
+                <select title="Pick a number" class="form-control" name="state">
+                    <option>Select...</option>
+                    <!-- <option value="All">All</option> -->
+                    {% for state in states %}
+                        <option value={{state}}>{{state}}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="col-sm-4">
+                <label for="">Crop</label>
+                <select title="Pick a number" class="form-control" name="crop">
+                    <option>Select...</option>
+                    <option value="All">All</option>
+                    {% for crop in crops %}
+                        <option value={{crop}}>{{crop}}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="col-sm-4">
+                <br>
+                <input type="submit" value="Submit" class="btn">
+            </div> 
+             </div>      
+        </form>
+        <br><br>
+        {%if result_len == 17 %}
+<div>
+    <canvas id="myChart" width="400" height="200"></canvas>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.js"></script>
+<script>
+
+        var canvas = document.getElementById('myChart');
+        var result_len = '{{result_len}}'
+        console.log(typeof(result_len))
+        var data = {
+            labels: ['Rice','Jowar','Bajra','Maize','Ragi','Wheat','Barley','Gram','Tur','Groundnut','Mustard','Soyabean','Sunflower','Cotton','Jute','Mesta'],
+            datasets: [
+                {
+                    label: "Market Stats",
+                    backgroundColor: "#43BE31",
+                    // borderColor: "#2C3335",
+                    // borderWidth: 5,
+                    hoverBackgroundColor: "#43BE31",
+                    hoverBorderColor: "#2C3335",
+                    data: ['{{result[0][2]}}', '{{result[1][2]}}', '{{result[2][2]}}', '{{result[3][2]}}', '{{result[4][2]}}', '{{result[5][2]}}', 
+                    '{{result[6][2]}}','{{result[7][2]}}','{{result[8][2]}}','{{result[9][2]}}','{{result[10][2]}}','{{result[11][2]}}',
+                    '{{result[12][2]}}','{{result[13][2]}}','{{result[14][2]}}','{{result[15][2]}}'],
+                }
+            ]
+        };
+        
+        Chart.defaults.global.legend.display = false;
+        Chart.defaults.global.animation.duration = 5000;
+        
+        var option = {
+            legend:{
+              display:true
+          },
+          animation: {
+              duration:2000
+          }
+        };
+        
+        var myBarChart = Chart.Bar(canvas,{
+            data:data,
+          options:option
+        });
+        
+        
+</script>
+{% endif %}
+    <div class="col-md-12">
+        <br><br>
+        <h3>Result found : <span class="text-muted">{{result_len}} </span> </h3>
+    
+    {% if display  == True %}
+    <div class="table-responsive">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>State</th>
+                    <th>Crop</th>
+                    <th>Profit/hectare</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for i in range(result_len) %}
+                <tr>
+                    <td>{{result[i][0]}}</td>
+                    <td>{{result[i][1]}}</td>
+                    <td> ₹ &nbsp; {{result[i][2]}}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    {% endif%}
+
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+</div>
+    
+{% endblock %}

@@ -1,0 +1,135 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+
+<div class="container">
+    <br><br><br><br><br><br><br><br>
+
+
+    <div class="row"> 
+        <div class ="col-sm-12 col-centered" style="padding-bottom: 1em">                 
+            <center>
+                <div class="btn-group center">
+                    <button id ="manual_btn" type="button" class="btn btn-primary" onclick="citywise()">Region Wise</button>
+                    <button id="auto_btn" type="button" class="btn btn-primary" onclick="getData()">Manual N P K pH </button>
+                </div> 
+            </center>
+        </div> 
+    </div>
+
+
+    <form action="/crop" method="POST" autocomplete="off">
+        
+        <div class="autocomplete" style="width:300px;" id="city">
+                <input id="myInput" type="text" name="city" placeholder="Region">
+              </div>
+
+
+        <div class="row" id="input-value">
+          <div class = "col-md-3 float-left">
+            <div class="input-group">
+                <!-- <span class="input-group-addon">Nitrogen</i></span> -->
+                <input  type="text" class="form-control" name="Nitrogen" placeholder="Nitrogen Value">
+              </div>
+            </div>
+    
+          <div class = "col-md-3 float-right">
+            <div class="input-group">
+                <!-- <span class="input-group-addon">Phosphorous</i></span> -->
+                
+                <input type="text" class="form-control" name="pH" placeholder="pH Value">
+              </div>
+            </div>
+    
+          <div class ="col-md-3 float-right">
+            <div class="input-group">
+                <!-- <span class="input-group-addon">Potassium</i></span> -->
+                <input  type="text" class="form-control" name="Potassium" placeholder="Potassium Value">
+              </div>
+          </div>
+          
+            <div class = "col-md-3 float-right">
+            <div class="input-group">
+                <!-- <span class="input-group-addon">pH</i></span> -->
+                <input  type="text" class="form-control" name="Phosphorous" placeholder="Phosphorous Value">
+              </div>
+            </div>
+            <br><br>
+            <div class = "col-md-3">
+                <br><br>
+                    <div class="input-group">
+                        <!-- <span class="input-group-addon">pH</i></span> -->
+                        <input  type="text" class="form-control" name="temp" placeholder="Temprature">
+                      </div>
+            </div>
+            <div class = "col-md-3 ">
+                <br><br>
+                    <div class="input-group">
+                        <!-- <span class="input-group-addon">pH</i></span> -->
+                        <input  type="text" class="form-control" name="climate" placeholder="Climate">
+                      </div>
+            </div>
+        </div>
+       <br>
+        <div class="col-md-12">
+            <br><br>
+            <input type="submit" class="btn " value="Predict Crop">
+        </div>
+    </form>
+    
+
+    <div class="col-md-6">
+        <br><br>
+            <h3>Crop found : <span class="text-muted">{{crop_num}} </span> </h3>
+        
+        {% if display  == True %}
+        <div class="table-responsive">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Crop Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for i in range(crop_num) %}
+                    <tr>
+                        <td>{{crops[i]}}</td>
+                        <td><a href="{{url_for('static', filename='guideline/'+crops[i]+'.html')}}"><input type="submit" value="Guideline"></a></td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        {% endif%}
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</div>
+
+
+<script src="../static/js/autocomplete1.js"></script>
+<script type="text/javascript">
+
+    var npk = document.getElementById("input-value");
+    var city = document.getElementById("city");
+    city.style.display = "block"
+    npk.style.display = "none"
+    
+    function getData(){
+        var npk = document.getElementById("input-value");
+        var city = document.getElementById("city");
+        // console.log(te.value);
+        npk.style.display = "block";
+        city.style.display = "none";
+        
+    }
+    function citywise(){
+        var npk = document.getElementById("input-value");
+        var city = document.getElementById("city");
+        // console.log(te.value);
+        npk.style.display = "none";
+        city.style.display = "block";
+        
+    }
+    </script>
+{% endblock %}

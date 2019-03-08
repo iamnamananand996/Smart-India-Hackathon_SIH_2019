@@ -1,0 +1,102 @@
+Crop,N,P,K,pH
+Rice,80,40,40,5.5
+Wheat,100,40,0,5.5
+Jowar(Sorghum),80,40,40,5.5
+Barley(JAV),70,40,45,5.5
+Bajra(Pearl Millet),90,30,0,5.5
+Maize,80,40,20,5.5
+Ragi( naachnnii),50,40,20,5.5
+Chickpeas(Channa),40,60,80,5.5
+French Beans(Farasbi),90,125,60,5
+Fava beans (Papdi - Val),90,125,60,5
+Lima beans(Pavta),40,60,20,5
+Cluster Beans(Gavar),25,50,25,5
+Soyabean,20,60,20,5.5
+Peanuts,15,25,0,5.5
+Black eyed beans( chawli),20,60,20,5.5
+Kidney beans,20,60,20,5.5
+pigeon peas(Toor Dal),20,60,20,5.5
+Moth bean(Matki),20,40,20,5.5
+Mung beans,20,40,20,5.5
+Green Peas,40,35,55,6
+Horse Gram(kulthi),20,60,20,6
+Black Gram,40,60,20,5
+Rapeseed (Mohri),50,40,20,5
+Coriander seeds,90,20,20,6.5
+Mustard seeds,100,30,15,6.5
+sesame seed,30,15,30,6.5
+Cumin seeds,90,60,20,6.5
+Lentils(Masoor Dal),20,60,20,5.5
+Brinjal,80,15,40,6.5
+Beetroot,120,50,100,5.5
+Bitter Gourd,60,10,20,6.5
+Bottle Gourd,100,50,50,6.5
+Capsicum,100,20,60,6.5
+Cabbage,100,65,70,6.5
+Carrot,40,45,60,5.5
+Cauliflower,80,70,50,6.5
+Cucumber,60,60,85,6.5
+Coriander leaves,10,20,20,6.5
+Curry leaves,20,20,20,6.5
+Drumstick – moringa,40,20,10,6.5
+Chili,120,20,80,6.5
+Lady Finger,80,10,40,6.5
+Mushroom,100,50,60,6.5
+Onion,120,60,65,6
+Potato,180,60,90,5
+Pumpkin,80,50,30,5.5
+Radish,25,100,50,6
+Olive,100,60,30,6.5
+Sweet Potato,90,20,120,5
+Fenugreek Leaf(methi),30,25,40,6
+Spinach,60,60,50,6
+Ridgegourd,90,50,20,6.5
+Gooseberry(Amla),20,50,20,4.5
+Jambun(Syzygium cumini),10,10,10,4.2
+Ziziphus mauritiana(Bor),20,10,10,6
+Garcinia indica(kokam),40,25,50,4.2
+Tamarind,20,15,25,3.1
+Tapioca(Suran),50,50,50,5.5
+Garlic,50,10,60,5.5
+Lemon,20,10,10,3.1
+Tomato,100,40,90,6
+Ash Gourd,60,10,30,5.5
+Pineapple,160,40,120,6.5
+Pomegranate,20,10,40,5.5
+Banana,100,75,50,6.5
+Mango,20,20,30,5
+Grapes,20,125,200,4
+Jackfruit,75,40,50,5
+Guava,50,50,50,5
+Water Melon,100,10,50,5.5
+Musk Melon,100,10,50,5.5
+Apricot,40,50,25,6.5
+Apple,20,125,200,6.5
+Chickoo,40,30,60,5
+Custard apple,40,20,40,6.5
+Dates,40,125,20,6.5
+Figs,20,60,20,5
+Orange,20,10,10,4
+Papaya,50,50,50,6
+Aniseed,100,50,20,5
+Asafoetida,90,40,20,5
+Bay Leaf,100,50,25,5
+Black Pepper,100,60,50,5
+Cardamom,75,75,150,5
+Cinnamon,20,20,25,5
+Cloves,20,20,60,5
+Jaiphal(Nutmeg),20,20,60,5
+Ginger,40,50,20,5
+Turmeric,25,60,100,5
+Cashewnuts,70,40,60,6
+Raisins,60,30,30,6
+Coconut,20,10,30,5
+Almond Nut,70,20,10,6
+Arecanut,100,40,140,6
+Pistachio Nut,90,20,20,6
+Lemon Grass,25,40,40,5.5
+Cotton,120,40,20,5.5
+Jute,80,40,40,5.5
+Coffee,100,20,30,5.5
+Sugarcane,112,50,0,5.5
+Sunflower,50,60,30,5.5
