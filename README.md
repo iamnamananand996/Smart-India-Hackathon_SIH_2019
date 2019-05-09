@@ -4,6 +4,56 @@ Problem-Statement: AI for Farmer for Crop and Fertilizer Recommendation, Pest re
 <br/>
 <br/>
 
+# Technology
+
+## FrontEnd
+- HTML
+- CSS
+- Bootstrap
+- Jquery
+- Javascript
+- Ajax
+
+## BackEnd
+- Flask
+
+
+# Database
+- Firebase
+
+## External Library
+- Chart.js
+- Animate.js
+- Twillo
+
+## Python Library
+- Keras
+- Tensorflow
+- opencv
+- Numpy
+- Pandas
+- scikit-learn
+- Pillow
+- bs4
+- requests
+- os
+- pyrebase
+- firebase-admin
+- Twillo
+- OWA
+- Flask
+
+## R Library
+
+- Shiny
+- GeoR
+- Gstat
+- Ap
+- Automap
+- Lattice
+- Raster
+- RgoogleMaps
+- Leaflet
 
 # Screenshots
 
