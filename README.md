@@ -69,7 +69,7 @@ Problem-Statement: AI for Farmer for Crop and Fertilizer Recommendation, Pest re
 - Numpy
 - Opencv
 
-Build CNN [model](https://drive.google.com/open?id=1cdFS_mKq3QPRZQEPX_hh0k8oV2JtISSz) trained on 10k image dataset provided kaggle of different Healthy and Unheathy plant image dataset
+Build [CNN model](https://drive.google.com/open?id=1cdFS_mKq3QPRZQEPX_hh0k8oV2JtISSz) trained on 10k image dataset provided kaggle of different Healthy and Unheathy plant image dataset
 
 ![Screenshot (68)](https://user-images.githubusercontent.com/31537362/57468347-e5126580-72a1-11e9-9289-0a5c406e3f6f.png)
 
